@@ -5,12 +5,13 @@ public class Persoon {
     private String naam;
     private int leeftijd;
 
+
     //De constructor die geenparameters heeft wordt ook wel
     //de default constructor genoemd
     Persoon(){
-        id = 1;
-        naam = null;
-        leeftijd = 18;
+        setId(0);
+        setNaam(null);
+        setLeeftijd(18);
     }
 
     //Dit word ook wel een contructor genoemd
@@ -45,4 +46,7 @@ public class Persoon {
         leeftijd = newLeeftijd;
     }
 
+    String toStringVoorbeeld() {
+        return "persoon[id = " + id + " name = " + naam + " leeftijd = " + leeftijd + "]";
+    }
 }

@@ -49,10 +49,8 @@ public class Dag07Objecten {
 
     @Test
     void eenDerdeConstructor(){
-        Persoon persoon = new Persoon(2,"Dennis");
-        System.out.println(persoon.getId());
-        System.out.println(persoon.getNaam());
-        System.out.println(persoon.getLeeftijd());
+        Persoon persoon = new Persoon(2,"Dennis",12);
+        System.out.println(Persoon.toStringVoorbeeld);
     }
 
 
