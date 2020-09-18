@@ -1,6 +1,8 @@
 package org.example.DaveLevi.dag07ObjectOrientatie;
 
 import org.junit.jupiter.api.Test;
+
+import java.sql.SQLOutput;
 import java.util.Scanner;
 
 import static org.assertj.core.api.Assertions.assertThat;
@@ -49,9 +51,39 @@ public class Dag07Objecten {
 
     @Test
     void eenDerdeConstructor(){
-        Persoon persoon = new Persoon(2,"Dennis",12);
-        System.out.println(Persoon.toStringVoorbeeld);
+        Persoon perx = new Persoon(2,"Dennis",12);
+        System.out.println(perx.toStringVoorbeeld());
     }
 
+    @Test
+    void animalconstructor() {
+        Animals chicken = new Animals("Chicken", 2, true, "Brown", 11);
+        System.out.println(chicken.toString());
+    }
+    @Test
+    void maakEenEventuelefiscaalPartner() {
+        Persoon joris = new Persoon(12, "joris", 54);
+        Persoon fiscalePartnerVanJoris = new Persoon(7, "Gerrie", 54);
+        Persoon sjoerd = new Persoon(1, "Sjoerd", 58);
+        Persoon fiscalePartnerVanSjoerd = new Persoon(5, "Miranda", 54);
+        sjoerd.setFiscalePartner(fiscalePartnerVanSjoerd);
+        joris.setFiscalePartner(fiscalePartnerVanJoris);
+
+        Persoon [] personenArray = {sjoerd, joris};
+
+        maakOverzichtPersoonEnFiscaalPartner(personenArray);
+
+    }
+
+    void maakOverzichtPersoonEnFiscaalPartner(Persoon[] persoonNaam) {
+        // is maan van persoon plus id van fiscale partner
+        for (int i = 0; i < persoonNaam.length; i++) {
+            System.out.println("id = " + persoonNaam[i].getId() +
+                    " Naam = " + persoonNaam[i].getNaam() +
+                    " Leeftijd = " + persoonNaam[i].getLeeftijd() +
+                    " Naam Fiscaal partner = " + persoonNaam[i].getFiscaalPartner().getNaam() +
+                    " ID fiscvaal partner = " + persoonNaam[i].getFiscaalPartner().getId());
+        }
+    }
 
 }

@@ -49,5 +49,5 @@ public class Animals {
 
     public String toString(){
         return "This animal is a " + animalType + " , it is " + age + " years old, its colour is " + colour + " and this animal requires " + hoursOfSleep + " hours of sleep per day";
-            }
+    }
 }

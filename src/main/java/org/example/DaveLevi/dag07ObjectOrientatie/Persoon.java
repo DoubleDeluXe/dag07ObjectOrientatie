@@ -4,6 +4,7 @@ public class Persoon {
     private int id;
     private String naam;
     private int leeftijd;
+    private Persoon fiscaalPartner;
 
 
     //De constructor die geenparameters heeft wordt ook wel
@@ -12,9 +13,8 @@ public class Persoon {
         setId(0);
         setNaam(null);
         setLeeftijd(18);
+        setFiscalePartner(null);
     }
-
-    //Dit word ook wel een contructor genoemd
     Persoon(int newId, String newNaam, int newLeeftijd){
         //id = newId;
         setId(newId);
@@ -22,6 +22,18 @@ public class Persoon {
         setNaam(newNaam);
         //leeftijd = newLeeftijd;
         setLeeftijd(newLeeftijd);
+
+    }
+
+    //Dit word ook wel een contructor genoemd
+    Persoon(int newId, String newNaam, int newLeeftijd, Persoon newPartner){
+        //id = newId;
+        setId(newId);
+        //naam = newNaam;
+        setNaam(newNaam);
+        //leeftijd = newLeeftijd;
+        setLeeftijd(newLeeftijd);
+        setFiscalePartner(newPartner);
     }
 
     int getId() {
@@ -46,7 +58,17 @@ public class Persoon {
         leeftijd = newLeeftijd;
     }
 
+    void setFiscalePartner(Persoon newFiscalePartner) {
+        fiscaalPartner = newFiscalePartner;
+    }
+
+    Persoon getFiscaalPartner() {
+        return fiscaalPartner;
+    }
+
     String toStringVoorbeeld() {
         return "persoon[id = " + id + " name = " + naam + " leeftijd = " + leeftijd + "]";
     }
+
+
 }
