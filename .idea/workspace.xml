@@ -23,10 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="453a0b81-9711-4425-825e-64d2fc727832" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DaveLevi/dag07ObjectOrientatie/Animals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DaveLevi/dag07ObjectOrientatie/Animals.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DaveLevi/dag07ObjectOrientatie/Persoon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DaveLevi/dag07ObjectOrientatie/Persoon.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/DaveLevi/dag07ObjectOrientatie/Dag07Objecten.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/DaveLevi/dag07ObjectOrientatie/Dag07Objecten.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +69,7 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="JUnit.Dag07Objecten.maakEenEventuelefiscaalPartner">
+  <component name="RunManager" selected="JUnit.Dag07Objecten.watWordtErUitgeprint">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -80,22 +77,6 @@
         </value>
       </option>
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Dag07Objecten.animalconstructor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Dag07" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.DaveLevi.dag07ObjectOrientatie.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.DaveLevi.dag07ObjectOrientatie" />
-      <option name="MAIN_CLASS_NAME" value="org.example.DaveLevi.dag07ObjectOrientatie.Dag07Objecten" />
-      <option name="METHOD_NAME" value="animalconstructor" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -132,7 +113,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Dag07Objecten.objectenAanmaken" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Dag07Objecten.methode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Dag07" />
       <extension name="coverage">
         <pattern>
@@ -142,13 +123,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example.DaveLevi.dag07ObjectOrientatie" />
       <option name="MAIN_CLASS_NAME" value="org.example.DaveLevi.dag07ObjectOrientatie.Dag07Objecten" />
-      <option name="METHOD_NAME" value="objectenAanmaken" />
+      <option name="METHOD_NAME" value="methode" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Dag07Objecten.objectenMakenMetDeNewOperator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Dag07Objecten.scanDouble" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Dag07" />
       <extension name="coverage">
         <pattern>
@@ -158,7 +139,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example.DaveLevi.dag07ObjectOrientatie" />
       <option name="MAIN_CLASS_NAME" value="org.example.DaveLevi.dag07ObjectOrientatie.Dag07Objecten" />
-      <option name="METHOD_NAME" value="objectenMakenMetDeNewOperator" />
+      <option name="METHOD_NAME" value="scanDouble(java.util.Scanner)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Dag07Objecten.watWordtErUitgeprint" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Dag07" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.DaveLevi.dag07ObjectOrientatie.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.DaveLevi.dag07ObjectOrientatie" />
+      <option name="MAIN_CLASS_NAME" value="org.example.DaveLevi.dag07ObjectOrientatie.Dag07Objecten" />
+      <option name="METHOD_NAME" value="watWordtErUitgeprint" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -166,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Dag07Objecten.watWordtErUitgeprint" />
+        <item itemvalue="JUnit.Dag07Objecten.methode" />
+        <item itemvalue="JUnit.Dag07Objecten.scanDouble" />
         <item itemvalue="JUnit.Dag07Objecten.maakEenEventuelefiscaalPartner" />
         <item itemvalue="JUnit.Dag07Objecten.eenDerdeConstructor" />
-        <item itemvalue="JUnit.Dag07Objecten.animalconstructor" />
-        <item itemvalue="JUnit.Dag07Objecten.objectenMakenMetDeNewOperator" />
-        <item itemvalue="JUnit.Dag07Objecten.objectenAanmaken" />
       </list>
     </recent_temporary>
   </component>
@@ -184,7 +181,7 @@
       <updated>1600341756694</updated>
       <workItem from="1600341758508" duration="656000" />
       <workItem from="1600342515702" duration="8323000" />
-      <workItem from="1600418946976" duration="4262000" />
+      <workItem from="1600418946976" duration="6430000" />
     </task>
     <servers />
   </component>
@@ -215,22 +212,22 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="156" y="297" width="489" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1600.860@0.0.1600.860" timestamp="1600348555117" />
-    <state width="740" height="236" key="GridCell.Tab.0.bottom" timestamp="1600420563603">
+    <state width="740" height="241" key="GridCell.Tab.0.bottom" timestamp="1600428825939">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="740" height="236" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1600420563603" />
-    <state width="740" height="236" key="GridCell.Tab.0.center" timestamp="1600420563602">
+    <state width="740" height="241" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1600428825939" />
+    <state width="740" height="241" key="GridCell.Tab.0.center" timestamp="1600428825939">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="740" height="236" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1600420563602" />
-    <state width="740" height="236" key="GridCell.Tab.0.left" timestamp="1600420563602">
+    <state width="740" height="241" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1600428825939" />
+    <state width="740" height="241" key="GridCell.Tab.0.left" timestamp="1600428825939">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="740" height="236" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1600420563602" />
-    <state width="740" height="236" key="GridCell.Tab.0.right" timestamp="1600420563602">
+    <state width="740" height="241" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1600428825939" />
+    <state width="740" height="241" key="GridCell.Tab.0.right" timestamp="1600428825939">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="740" height="236" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1600420563602" />
+    <state width="740" height="241" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1600428825939" />
     <state x="0" y="60" key="SettingsEditor" timestamp="1600421377844">
       <screen x="0" y="0" width="1600" height="860" />
     </state>

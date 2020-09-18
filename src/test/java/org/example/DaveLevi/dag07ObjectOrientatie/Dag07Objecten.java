@@ -85,5 +85,15 @@ public class Dag07Objecten {
                     " ID fiscvaal partner = " + persoonNaam[i].getFiscaalPartner().getId());
         }
     }
+    @Test
+    void watWordtErUitgeprint() {
+        Persoon voorbeeld1 = new Persoon(1, "fredje", 25);
+        Persoon voorbeeld2 = voorbeeld1;
+        voorbeeld2.setLeeftijd(22);
+
+        System.out.println(voorbeeld1.getLeeftijd());
+    }
+
+
 
 }
