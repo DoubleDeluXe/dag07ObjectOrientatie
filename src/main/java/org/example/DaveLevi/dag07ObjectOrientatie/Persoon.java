@@ -5,37 +5,46 @@ public class Persoon {
     private String naam;
     private int leeftijd;
     private Persoon fiscaalPartner;
+    private static final int minLeeftijd = 18;
+    private static int aantalPersonen;
 
-
-    //De constructor die geenparameters heeft wordt ook wel
-    //de default constructor genoemd
-    Persoon(){
-        setId(0);
-        setNaam(null);
-        setLeeftijd(18);
-        setFiscalePartner(null);
+    public Persoon() {
+        this(0, null);
     }
-    Persoon(int newId, String newNaam, int newLeeftijd){
-        //id = newId;
+    public Persoon(int newId, String newNaam){
+        this(newId,newNaam, minLeeftijd);
+    }
+    public Persoon(int newId, String newNaam, int newLeeftijd){
+        this(newId, newNaam, newLeeftijd, null);
+    }
+    public Persoon(int newId, String newNaam, int newLeeftijd, Persoon newFiscaalPertner){
+        setStateObject(newId, newNaam, newLeeftijd, newFiscaalPertner);
+    }
+
+    private void setStateObject(int newId, String newNaam, int newLeeftijd, Persoon newfiscaalPartner){
+        gastenlijstManager(true);
         setId(newId);
-        //naam = newNaam;
         setNaam(newNaam);
-        //leeftijd = newLeeftijd;
         setLeeftijd(newLeeftijd);
-
+        setFiscalePartner(newfiscaalPartner);
     }
-
-    //Dit word ook wel een contructor genoemd
-    Persoon(int newId, String newNaam, int newLeeftijd, Persoon newPartner){
-        //id = newId;
-        setId(newId);
-        //naam = newNaam;
-        setNaam(newNaam);
-        //leeftijd = newLeeftijd;
-        setLeeftijd(newLeeftijd);
-        setFiscalePartner(newPartner);
+    void gastenlijstManager(boolean toevoeging) {
+        if (toevoeging = true) {
+            aantalPersonen++;
+            int maxAantalPersonen = 6;
+            if (aantalPersonen == maxAantalPersonen) { //Als capaciteit bereikt is
+                System.out.println("Over capaciteit");
+            }
+        } else {
+            aantalPersonen--;
+            if (aantalPersonen == 0) {
+                System.out.println("Error, is niemand meer aanwezig");
+            }
+        }
     }
-
+    public static int getAantalPersonen(){
+        return aantalPersonen;
+    }
     int getId() {
         return id;
     }
@@ -45,7 +54,7 @@ public class Persoon {
     int getLeeftijd() {
         return leeftijd;
     }
-    void setId(int newId) {
+    public void setId(int newId) {
         //controles, als ok dan state aanpassen
         id = newId;
     }
@@ -55,13 +64,15 @@ public class Persoon {
     }
     void setLeeftijd(int newLeeftijd) {
         //controles, als ok dan state aanpassen
+        if (newLeeftijd < minLeeftijd){
+
+        }
+
         leeftijd = newLeeftijd;
     }
-
     void setFiscalePartner(Persoon newFiscalePartner) {
         fiscaalPartner = newFiscalePartner;
     }
-
     Persoon getFiscaalPartner() {
         return fiscaalPartner;
     }
@@ -69,6 +80,7 @@ public class Persoon {
     String toStringVoorbeeld() {
         return "persoon[id = " + id + " name = " + naam + " leeftijd = " + leeftijd + "]";
     }
-
-
+    public static int getMinLeeftijd() {
+        return minLeeftijd;
+    }
 }

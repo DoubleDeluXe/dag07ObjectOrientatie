@@ -1,5 +1,6 @@
 package org.example.DaveLevi.dag07ObjectOrientatie;
 
+import org.example.DaveLevi.dag07ObjectOrientatie.*;
 import org.junit.jupiter.api.Test;
 
 import java.sql.SQLOutput;
@@ -94,6 +95,10 @@ public class Dag07Objecten {
         System.out.println(voorbeeld1.getLeeftijd());
     }
 
-
+    @Test
+    void experimentMetClassMemeber() {
+        int x = Persoon.getMinLeeftijd();
+        System.out.println(x);
+    }
 
 }
