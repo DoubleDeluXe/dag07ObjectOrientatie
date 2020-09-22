@@ -26,6 +26,10 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DaveLevi/dag07ObjectOrientatie/Persoon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DaveLevi/dag07ObjectOrientatie/Persoon.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/DaveLevi/dag07ObjectOrientatie/Dag07Objecten.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/DaveLevi/dag07ObjectOrientatie/Dag07Objecten.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/DaveLevi/dag07ObjectOrientatie/StaticMembersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/DaveLevi/dag07ObjectOrientatie/StaticMembersTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/DaveLevi/dag07ObjectOrientatie/Persoon.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/DaveLevi/dag07ObjectOrientatie/Persoon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/example/DaveLevi/dag07ObjectOrientatie/Dag07Objecten.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/example/DaveLevi/dag07ObjectOrientatie/Dag07Objecten.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/example/DaveLevi/dag07ObjectOrientatie/StaticMembersTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/example/DaveLevi/dag07ObjectOrientatie/StaticMembersTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,14 +79,16 @@
       <recent name="org.example.DaveLevi.dag07ObjectOrientatie" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.StaticMembersTest.telhetAantalAangemaaktePersonen">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.StaticMembersTest.constantsFromMath">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -135,7 +141,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Dag07Objecten.watWordtErUitgeprint" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StaticMembersTest.constantsFromMath" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Dag07" />
       <extension name="coverage">
         <pattern>
@@ -144,8 +150,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example.DaveLevi.dag07ObjectOrientatie" />
-      <option name="MAIN_CLASS_NAME" value="org.example.DaveLevi.dag07ObjectOrientatie.Dag07Objecten" />
-      <option name="METHOD_NAME" value="watWordtErUitgeprint" />
+      <option name="MAIN_CLASS_NAME" value="org.example.DaveLevi.dag07ObjectOrientatie.StaticMembersTest" />
+      <option name="METHOD_NAME" value="constantsFromMath" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -169,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StaticMembersTest.constantsFromMath" />
         <item itemvalue="JUnit.StaticMembersTest.telhetAantalAangemaaktePersonen" />
         <item itemvalue="JUnit.Dag07Objecten.experimentMetClassMemeber" />
         <item itemvalue="JUnit.Dag07Objecten.animalconstructor" />
         <item itemvalue="JUnit.Dag07Objecten.maakEenEventuelefiscaalPartner" />
-        <item itemvalue="JUnit.Dag07Objecten.watWordtErUitgeprint" />
       </list>
     </recent_temporary>
   </component>
@@ -193,7 +199,8 @@
       <workItem from="1600527926094" duration="1086000" />
       <workItem from="1600596632806" duration="2859000" />
       <workItem from="1600673759843" duration="671000" />
-      <workItem from="1600689571122" duration="5415000" />
+      <workItem from="1600689571122" duration="6267000" />
+      <workItem from="1600761089959" duration="1873000" />
     </task>
     <servers />
   </component>
@@ -225,22 +232,22 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="156" y="297" width="489" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1600.860@0.0.1600.860" timestamp="1600695138584" />
-    <state width="1556" height="235" key="GridCell.Tab.0.bottom" timestamp="1600695914306">
+    <state width="740" height="270" key="GridCell.Tab.0.bottom" timestamp="1600762154327">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="235" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1600695914306" />
-    <state width="1556" height="235" key="GridCell.Tab.0.center" timestamp="1600695914306">
+    <state width="740" height="270" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1600762154327" />
+    <state width="740" height="270" key="GridCell.Tab.0.center" timestamp="1600762154326">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="235" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1600695914306" />
-    <state width="1556" height="235" key="GridCell.Tab.0.left" timestamp="1600695914305">
+    <state width="740" height="270" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1600762154326" />
+    <state width="740" height="270" key="GridCell.Tab.0.left" timestamp="1600762154326">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="235" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1600695914305" />
-    <state width="1556" height="235" key="GridCell.Tab.0.right" timestamp="1600695914306">
+    <state width="740" height="270" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1600762154326" />
+    <state width="740" height="270" key="GridCell.Tab.0.right" timestamp="1600762154327">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="235" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1600695914306" />
+    <state width="740" height="270" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1600762154327" />
     <state x="0" y="60" key="SettingsEditor" timestamp="1600421377844">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -253,9 +260,9 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="56" y="190" key="run.anything.popup/0.0.1600.860@0.0.1600.860" timestamp="1600695575854" />
-    <state x="63" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1600696048905">
+    <state x="63" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1600696893486">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="63" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1600.860@0.0.1600.860" timestamp="1600696048905" />
+    <state x="63" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1600.860@0.0.1600.860" timestamp="1600696893486" />
   </component>
 </project>

@@ -22,23 +22,23 @@ public class Persoon {
     }
 
     private void setStateObject(int newId, String newNaam, int newLeeftijd, Persoon newfiscaalPartner){
-        gastenlijstManager(true);
+        gezichtenBoek(true);
         setId(newId);
         setNaam(newNaam);
         setLeeftijd(newLeeftijd);
         setFiscalePartner(newfiscaalPartner);
     }
-    void gastenlijstManager(boolean toevoeging) {
+    void gezichtenBoek(boolean toevoeging) {
         if (toevoeging = true) {
             aantalPersonen++;
             int maxAantalPersonen = 6;
             if (aantalPersonen == maxAantalPersonen) { //Als capaciteit bereikt is
-                System.out.println("Over capaciteit");
+                System.out.println("Capaciteit bereikt");
             }
         } else {
             aantalPersonen--;
             if (aantalPersonen == 0) {
-                System.out.println("Error, is niemand meer aanwezig");
+                System.out.println("Er is niemand meer aanwezig");
             }
         }
     }

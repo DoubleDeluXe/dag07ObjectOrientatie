@@ -4,13 +4,15 @@ import org.junit.jupiter.api.Test;
 
 public class StaticMembersTest {
 
+public static final double E = Math.PI;
+
     @Test
-    void telhetAantalAangemaaktePersonen() {
-        Persoon p1 = new Persoon(11, "Jerry");
-        Persoon p2 = new Persoon(12, "Bo", 20);
-        Persoon p3 = new Persoon(13, "Harry", 42, p2);
-        System.out.println(Persoon.getAantalPersonen());
-
+    void constantsFromMath() {
+        System.out.println(Math.PI);
+        for (int i = 0; i <= 10; i++){
+            System.out.print(i + ": ");
+            System.out.printf("%.3f", 10 * Math.log10(i));
+            System.out.println();
+        }
     }
-
 }

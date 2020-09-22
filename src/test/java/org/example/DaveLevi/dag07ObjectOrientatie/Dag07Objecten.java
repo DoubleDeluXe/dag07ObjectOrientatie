@@ -9,6 +9,13 @@ import java.util.Scanner;
 import static org.assertj.core.api.Assertions.assertThat;
 
 public class Dag07Objecten {
+    @Test
+    void telhetAantalAangemaaktePersonen() {
+        Persoon p1 = new Persoon(11, "Jerry");
+        Persoon p2 = new Persoon(12, "Bo", 20);
+        Persoon p3 = new Persoon(13, "Harry", 42, p2);
+        System.out.println(Persoon.getAantalPersonen());
+    }
 
     //Voorbeeld van overloading
     void name(){
